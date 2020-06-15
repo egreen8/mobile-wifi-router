@@ -1,0 +1,6 @@
+[Modem Manager API access for dialout group members]
+Identity=unix-group:dialout
+Action=org.freedesktop.ModemManager1.Control;org.freedesktop.ModemManager1.Device.Control;org.freedesktop.ModemManager1.Contacts;org.freedesktop.ModemManager1.Messaging;org.freedesktop.ModemManager1.Location;org.freedesktop.ModemManager1.USSD
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes

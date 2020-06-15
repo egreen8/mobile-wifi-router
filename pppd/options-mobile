@@ -1,0 +1,18 @@
+ttyUSB0
+115200
+#921600
+lock
+crtscts
+modem
+passive
+novj
+defaultroute
+noipdefault
+usepeerdns
+noauth
+nodeflate
+hide-password
+persist
+holdoff 10
+maxfail 0
+debug

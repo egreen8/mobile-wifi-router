@@ -1,0 +1,22 @@
+source /etc/network/interfaces.d/*
+# Network is managed by Network manager
+auto lo
+iface lo inet loopback
+
+# Static IP for wlan0
+
+auto wlan0
+allow-hotplug wlan0
+
+iface wlan0 inet static 
+	address 192.168.20.1
+	netmask 255.255.255.0
+
+wireless-mode Managed
+wireless-power off
+
+# ppp0 on boot
+
+#auto ppp0
+iface ppp0 inet ppp
+  provider mobile-noauth 
